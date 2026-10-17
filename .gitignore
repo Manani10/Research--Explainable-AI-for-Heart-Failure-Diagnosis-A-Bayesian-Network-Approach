@@ -1,0 +1,20 @@
+# MIMIC-IV is credentialed data - never commit data or derived artifacts
+data/
+*.pkl
+*.npy
+*.parquet
+*.csv
+checkpoints/
+models/
+predictions/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
